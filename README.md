@@ -25,22 +25,6 @@ LINK_PREVIEW_SERVICE=netlify
 
 You can also set these in the Nuxt config file (`nuxt.config.ts`).
 
-### 4everland
-
-[4everland](https://4everland.org/) is a decentralized hosting provider which stores your website on IPFS.
-
-If you have your code on GitHub, the `build.yml` script will build your app via GitHub Actions and create a `build` branch.
-
-Make sure you add all the necessary env vars (tenor etc.) to the organization variables for actions on GitHub.
-
-Also make sure you have Workflow permissions on the organization level on GitHub set to read & write.
-
-Then, when you create a project on 4everland, make sure you select the `build` branch. 
-
-And in the build section delete the command and set build folder to empty (or `./`). The preset can be set to `Other`. No install command is needed either.
-
-![](https://bafkreid6mzglrk5hklraua267sker6gqsfpy2ezmjj7yc2oqmx2arbynru.ipfs.w3s.link)
-
 ## GIFs (Tenor)
 
 If you want to have GIF search implemented, create your own Tenor API Key on Google Cloud Console. Follow the instructions here: https://developers.google.com/tenor/guides/quickstart. 
